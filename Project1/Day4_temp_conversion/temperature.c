@@ -12,7 +12,7 @@ int main(){
 
     //Displaying the temperature value on the screen
 
-    printf("The temperature value in the fahrenheit is : %f",fahrenheit );
+    printf("The temperature value in the fahrenheit is : %f F",fahrenheit );
     return 0;
 
 }
