@@ -41,8 +41,7 @@ int main() {
             printf("STATUS      : NOT Eligible\n");
             printf("REASON      : Documents verification failed\n");
         }
-        else {//if (vision == 0 && document == 0) 
-
+        else {
             printf("STATUS      : NOT Eligible\n");
             printf("REASON      : Vision test and Documents verification failed\n");
         }
