@@ -1,6 +1,15 @@
+/*Design and develop a Voting Eligibility System in C that determines whether a person is eligible 
+to vote based on multiple conditions.The program should ask the user to enter the following details:
+Age
+Citizenship status
+Voter ID availability
+The system should verify all the conditions and display whether the person is eligible to vote or not. 
+If the person is not eligible, the program should clearly mention the reason.*/
+
 #include<stdio.h>
 int main() {
     int age,citizenship,voterId;
+    //read user data
     printf("Enter the age : ");
     scanf("%d",&age);
 
@@ -9,7 +18,7 @@ int main() {
 
     printf("Enter the availability of the Voter ID (Yes = 1 and No = 0)");
     scanf("%d",&voterId);
-
+//Displaying output
     printf("============================================\n");
     printf("           Voting Eligibility               \n");
     printf("============================================\n");
