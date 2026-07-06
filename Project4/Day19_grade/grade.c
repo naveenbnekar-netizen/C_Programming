@@ -1,9 +1,13 @@
 #include<stdio.h>
 int main() {
+    // Variable to store the grade entered by the user
     char grade;
+
+    // Prompt the user to enter a grade
     printf("Enter the grade (A, B, C, D, F): ");
     scanf(" %c", &grade);
     
+    // Check the entered grade using a switch statement
     switch(grade) {
         case 'A' : case 'a' : {
             printf("Excellemnt \n");
