@@ -1,4 +1,4 @@
-# Day 25 - Multiplication Table Using Functions
+# Day 25 - Multiplication Table Using Functions.
 
 ## Problem Statement
 
