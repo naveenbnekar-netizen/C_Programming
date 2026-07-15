@@ -18,7 +18,7 @@ return 0;
 void yearCheck(int year){
     if(year % 400 == 0){
 
-        printf("Entered year is Leap year");
+        printf("Entered year is Leap year.");
 
     }
     else if(year % 4 == 0 && year % 100 != 0){
