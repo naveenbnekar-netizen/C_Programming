@@ -12,7 +12,7 @@ int main(){
     printf("Enter the character: ");
     scanf("%c", &ch);
 
-    vowelCheck(ch);
+    vowelCheck(ch); //function call
 return 0;
 }
 //function definition
